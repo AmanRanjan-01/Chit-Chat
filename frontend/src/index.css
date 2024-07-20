@@ -2,13 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/bg.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position:center;
+body {
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
-
 
 ::-webkit-scrollbar {
 	width: 8px;
